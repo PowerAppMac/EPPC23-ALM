@@ -1,0 +1,2956 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.4.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PowerApps Checker",
+          "organization": "Microsoft",
+          "product": "PowerApps Checker",
+          "productSuite": "PowerApps",
+          "informationUri": "https://docs.microsoft.com/powerapps/maker/common-data-service/use-powerapps-checker",
+          "rules": [
+            {
+              "id": "web-use-navigation-api",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/use-navigation-api",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-sdl-no-winjs-html-unsafe",
+              "helpUri": "https://github.com/microsoft/eslint-plugin-sdl/blob/main/docs/rules/no-winjs-html-unsafe.md",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Security",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-remove-console",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=web-remove-console&client=PAChecker",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Usage",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-avoid-crm2011-service-soap",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/avoid-crm2011-service-soap",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Critical",
+                "severity": "Critical",
+                "caLevel": "Critical"
+              }
+            },
+            {
+              "id": "app-reduce-screen-controls",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-reduce-screen-controls&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Performance",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-include-helpful-control-setting",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-include-helpful-control-setting&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-sdl-no-postmessage-star-origin",
+              "helpUri": "https://github.com/microsoft/eslint-plugin-sdl/blob/main/docs/rules/no-postmessage-star-origin.md",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Security",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-avoid-browser-specific-api",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/avoid-browser-specific-api",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Critical",
+                "severity": "Critical",
+                "caLevel": "Critical"
+              }
+            },
+            {
+              "id": "web-use-relative-uri",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/use-relative-uri",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Maintainability",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-testformula-issues-low",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-testformula-issues-low&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Design",
+                "originalSeverity": "Low",
+                "severity": "Low",
+                "caLevel": "Low"
+              }
+            },
+            {
+              "id": "web-avoid-eval",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-eval&client=PAChecker",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Security",
+                "originalSeverity": "Critical",
+                "severity": "Critical",
+                "caLevel": "Critical"
+              }
+            },
+            {
+              "id": "web-sdl-no-document-write",
+              "helpUri": "https://github.com/microsoft/eslint-plugin-sdl/blob/main/docs/rules/no-document-write.md",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Security",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "flow-avoid-invalid-reference",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=flow-avoid-invalid-reference&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Usage",
+                "originalSeverity": "High",
+                "severity": "High",
+                "caLevel": "High"
+              }
+            },
+            {
+              "id": "meta-avoid-reg-retrieve",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-retrieve&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Performance",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "meta-avoid-silverlight",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-silverlight&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-sdl-no-html-method",
+              "helpUri": "https://github.com/microsoft/eslint-plugin-sdl/blob/main/docs/rules/no-html-method.md",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Security",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-avoid-modals",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/avoid-modals",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Supportability",
+                "originalSeverity": "High",
+                "severity": "High",
+                "caLevel": "High"
+              }
+            },
+            {
+              "id": "web-sdl-no-document-domain",
+              "helpUri": "https://github.com/microsoft/eslint-plugin-sdl/blob/main/docs/rules/no-document-domain.md",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Security",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-avoid-interactive-html",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-avoid-interactive-html&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-use-strict-mode",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-strict-mode&client=PAChecker",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Usage",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-use-grid-api",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/use-grid-api",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-use-getsecurityroleprivilegesinfo",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/use-getsecurityroleprivilegesinfo",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Performance",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-use-global-context",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/use-global-context",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-avoid-with",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-with&client=PAChecker",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Performance",
+                "originalSeverity": "High",
+                "severity": "High",
+                "caLevel": "High"
+              }
+            },
+            {
+              "id": "web-avoid-crm2011-service-odata",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/avoid-crm2011-service-odata",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Critical",
+                "severity": "Critical",
+                "caLevel": "Critical"
+              }
+            },
+            {
+              "id": "meta-avoid-reg-no-attribute",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-no-attribute&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Performance",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-include-tab-index",
+              "messageStrings": {
+                "message1": {
+                  "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen."
+                }
+              },
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-include-tab-index&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "meta-remove-inactive",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-inactive&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Maintainability",
+                "originalSeverity": "Low",
+                "severity": "Low",
+                "caLevel": "Low"
+              }
+            },
+            {
+              "id": "web-sdl-no-cookies",
+              "helpUri": "https://github.com/microsoft/eslint-plugin-sdl/blob/main/docs/rules/no-cookies.md",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Security",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "meta-avoid-crm4-event",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-crm4-event&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-include-alternative-input",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-include-alternative-input&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-avoid-isactivitytype",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/avoid-isactivitytype",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-sdl-no-msapp-exec-unsafe",
+              "helpUri": "https://github.com/microsoft/eslint-plugin-sdl/blob/main/docs/rules/no-msapp-exec-unsafe.md",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Security",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-use-offline",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/use-offline",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-include-accessible-label",
+              "messageStrings": {
+                "message1": {
+                  "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben."
+                }
+              },
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-include-accessible-label&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "meta-avoid-retrievemultiple-annotation",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-retrievemultiple-annotation&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Usage",
+                "originalSeverity": "High",
+                "severity": "High",
+                "caLevel": "High"
+              }
+            },
+            {
+              "id": "app-include-state-indication-text",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-include-state-indication-text&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "flow-avoid-connection-mode",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=flow-avoid-connection-mode&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Design",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-avoid-loadtheme",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/avoid-loadtheme",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Supportability",
+                "originalSeverity": "Low",
+                "severity": "Low",
+                "caLevel": "Low"
+              }
+            },
+            {
+              "id": "app-formula-issues-medium",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-formula-issues-medium&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Design",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-include-readable-screen-name",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-include-readable-screen-name&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-make-focusborder-visible",
+              "messageStrings": {
+                "message1": {
+                  "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0."
+                }
+              },
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-make-focusborder-visible&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-testformula-issues-medium",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-testformula-issues-medium&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Design",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-use-delayoutput-text-input",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-use-delayoutput-text-input&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Performance",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-use-async",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/use-async",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Performance",
+                "originalSeverity": "Critical",
+                "severity": "Critical",
+                "caLevel": "Critical"
+              }
+            },
+            {
+              "id": "app-include-captions",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-include-captions&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-remove-alert",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=web-remove-alert&client=PAChecker",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Usage",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-avoid-unpub-api",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/avoid-unpub-api",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Supportability",
+                "originalSeverity": "High",
+                "severity": "High",
+                "caLevel": "High"
+              }
+            },
+            {
+              "id": "web-sdl-no-insecure-url",
+              "helpUri": "https://github.com/microsoft/eslint-plugin-sdl/blob/main/docs/rules/no-insecure-url.md",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Security",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-use-client-context",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/use-client-context",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "flow-avoid-recursive-loop",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=flow-avoid-recursive-loop&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Design",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "app-formula-issues-low",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-formula-issues-low&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Design",
+                "originalSeverity": "Low",
+                "severity": "Low",
+                "caLevel": "Low"
+              }
+            },
+            {
+              "id": "app-avoid-autostart",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-avoid-autostart&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "flow-outlook-attachment-missing-info",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=flow-outlook-attachment-missing-info&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Usage",
+                "originalSeverity": "High",
+                "severity": "High",
+                "caLevel": "High"
+              }
+            },
+            {
+              "id": "web-use-strict-equality-operators",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-strict-equality-operators&client=PAChecker",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Usage",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-sdl-no-inner-html",
+              "helpUri": "https://github.com/microsoft/eslint-plugin-sdl/blob/main/docs/rules/no-inner-html.md",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Security",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-avoid-2011-api",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/avoid-2011-api",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "High",
+                "severity": "High",
+                "caLevel": "High"
+              }
+            },
+            {
+              "id": "app-testformula-issues-high",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-testformula-issues-high&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Design",
+                "originalSeverity": "High",
+                "severity": "High",
+                "caLevel": "High"
+              }
+            },
+            {
+              "id": "web-use-org-setting",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/use-org-setting",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "UpgradeReadiness",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-remove-debug-script",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=web-remove-debug-script&client=PAChecker",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Usage",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "meta-remove-dup-reg",
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-dup-reg&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Performance",
+                "originalSeverity": "Critical",
+                "severity": "Critical",
+                "caLevel": "Critical"
+              }
+            },
+            {
+              "id": "app-formula-issues-high",
+              "messageStrings": {
+                "message1": {
+                  "text": "Für die App wurden {0} Formelprobleme mit hohem Schweregrad von der App-Überprüfung gemeldet. Die Probleme können im Designmodus der App {1} überprüft werden."
+                }
+              },
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-formula-issues-high&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Design",
+                "originalSeverity": "Critical",
+                "severity": "Critical",
+                "caLevel": "Critical"
+              }
+            },
+            {
+              "id": "app-include-tab-order",
+              "messageStrings": {
+                "message1": {
+                  "text": "Stellen Sie sicher, dass die Bildschirmelemente in der Reihenfolge vorliegen, in der Sie sie durchlaufen möchten."
+                }
+              },
+              "helpUri": "http://go.microsoft.com/fwlink/?LinkID=398563&error=app-include-tab-order&client=PAChecker",
+              "properties": {
+                "componentType": "Configuration",
+                "primaryCategory": "Accessibility",
+                "originalSeverity": "Medium",
+                "severity": "Medium",
+                "caLevel": "Medium"
+              }
+            },
+            {
+              "id": "web-avoid-window-top",
+              "helpUri": "https://learn.microsoft.com/power-apps/maker/data-platform/powerapps-checker/rules/web/avoid-window-top",
+              "properties": {
+                "componentType": "WebResource",
+                "primaryCategory": "Supportability",
+                "originalSeverity": "High",
+                "severity": "High",
+                "caLevel": "High"
+              }
+            }
+          ],
+          "language": "de-CH"
+        }
+      },
+      "invocations": [
+        {
+          "startTimeUtc": "2023-06-20T11:30:03.341Z",
+          "endTimeUtc": "2023-06-20T11:30:19.638Z",
+          "executionSuccessful": true
+        }
+      ],
+      "language": "de-CH",
+      "artifacts": [
+        {
+          "location": {
+            "uri": "/PackedMRSolution.zip"
+          },
+          "length": 932273
+        },
+        {
+          "location": {
+            "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp"
+          },
+          "length": 53783
+        }
+      ],
+      "results": [
+        {
+          "ruleId": "app-make-focusborder-visible",
+          "ruleIndex": 41,
+          "message": {
+            "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Label3.FocusedBorderThickness"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Label3.FocusedBorderThickness"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Label3.FocusedBorderThickness"
+                }
+              ],
+              "properties": {
+                "module": "Dialog",
+                "type": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Label3",
+                "member": "FocusedBorderThickness"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-order",
+          "ruleIndex": 62,
+          "message": {
+            "text": "Stellen Sie sicher, dass die Bildschirmelemente in der Reihenfolge vorliegen, in der Sie sie durchlaufen möchten.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Icon2.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Icon2.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Icon2.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Dialog",
+                "type": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Icon2",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-make-focusborder-visible",
+          "ruleIndex": 41,
+          "message": {
+            "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Icon2.FocusedBorderThickness"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Icon2.FocusedBorderThickness"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Icon2.FocusedBorderThickness"
+                }
+              ],
+              "properties": {
+                "module": "Dialog",
+                "type": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.DialogHeaderContainer.Icon2",
+                "member": "FocusedBorderThickness"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-order",
+          "ruleIndex": 62,
+          "message": {
+            "text": "Stellen Sie sicher, dass die Bildschirmelemente in der Reihenfolge vorliegen, in der Sie sie durchlaufen möchten.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.ButtonsGallery_2.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.ButtonsGallery_2.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.ButtonsGallery_2.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Dialog",
+                "type": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.ButtonsGallery_2",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.ButtonsGallery_2.Button1_1.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.ButtonsGallery_2.Button1_1.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.ButtonsGallery_2.Button1_1.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Dialog",
+                "type": "Dialog.DialogRootContainer.MiddleContainer.CenterDialogContainer.ButtonsGallery_2.Button1_1",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Header.HeaderContainer.LeftContainer.imgBack.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Header.HeaderContainer.LeftContainer.imgBack.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Header.HeaderContainer.LeftContainer.imgBack.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Header",
+                "type": "Header.HeaderContainer.LeftContainer.imgBack",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Header.HeaderContainer.LeftContainer.imgBack.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Header.HeaderContainer.LeftContainer.imgBack.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Header.HeaderContainer.LeftContainer.imgBack.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Header",
+                "type": "Header.HeaderContainer.LeftContainer.imgBack",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-make-focusborder-visible",
+          "ruleIndex": 41,
+          "message": {
+            "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Header.HeaderContainer.LeftContainer.imgLogo.FocusedBorderThickness"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Header.HeaderContainer.LeftContainer.imgLogo.FocusedBorderThickness"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Header.HeaderContainer.LeftContainer.imgLogo.FocusedBorderThickness"
+                }
+              ],
+              "properties": {
+                "module": "Header",
+                "type": "Header.HeaderContainer.LeftContainer.imgLogo",
+                "member": "FocusedBorderThickness"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-order",
+          "ruleIndex": 62,
+          "message": {
+            "text": "Stellen Sie sicher, dass die Bildschirmelemente in der Reihenfolge vorliegen, in der Sie sie durchlaufen möchten.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Header.HeaderContainer.LeftContainer.imgLogo.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Header.HeaderContainer.LeftContainer.imgLogo.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Header.HeaderContainer.LeftContainer.imgLogo.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Header",
+                "type": "Header.HeaderContainer.LeftContainer.imgLogo",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-order",
+          "ruleIndex": 62,
+          "message": {
+            "text": "Stellen Sie sicher, dass die Bildschirmelemente in der Reihenfolge vorliegen, in der Sie sie durchlaufen möchten.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Header.HeaderContainer.RightContainer.imgRight.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Header.HeaderContainer.RightContainer.imgRight.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Header.HeaderContainer.RightContainer.imgRight.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Header",
+                "type": "Header.HeaderContainer.RightContainer.imgRight",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "SearchBox.txtSearchInput_1.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "SearchBox.txtSearchInput_1.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "SearchBox.txtSearchInput_1.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "SearchBox",
+                "type": "SearchBox.txtSearchInput_1",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-make-focusborder-visible",
+          "ruleIndex": 41,
+          "message": {
+            "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "CustomIcon.Icon16_2.FocusedBorderThickness"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "CustomIcon.Icon16_2.FocusedBorderThickness"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CustomIcon.Icon16_2.FocusedBorderThickness"
+                }
+              ],
+              "properties": {
+                "module": "CustomIcon",
+                "type": "CustomIcon.Icon16_2",
+                "member": "FocusedBorderThickness"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-make-focusborder-visible",
+          "ruleIndex": 41,
+          "message": {
+            "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Label3_2.FocusedBorderThickness"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Label3_2.FocusedBorderThickness"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Label3_2.FocusedBorderThickness"
+                }
+              ],
+              "properties": {
+                "module": "Panel",
+                "type": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Label3_2",
+                "member": "FocusedBorderThickness"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-order",
+          "ruleIndex": 62,
+          "message": {
+            "text": "Stellen Sie sicher, dass die Bildschirmelemente in der Reihenfolge vorliegen, in der Sie sie durchlaufen möchten.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Icon2_2.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Icon2_2.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Icon2_2.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Panel",
+                "type": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Icon2_2",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-make-focusborder-visible",
+          "ruleIndex": 41,
+          "message": {
+            "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Icon2_2.FocusedBorderThickness"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Icon2_2.FocusedBorderThickness"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Icon2_2.FocusedBorderThickness"
+                }
+              ],
+              "properties": {
+                "module": "Panel",
+                "type": "Panel.PanelRootContainer_1.CenterPanelContainer.PanelHeaderContainer.Icon2_2",
+                "member": "FocusedBorderThickness"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-order",
+          "ruleIndex": 62,
+          "message": {
+            "text": "Stellen Sie sicher, dass die Bildschirmelemente in der Reihenfolge vorliegen, in der Sie sie durchlaufen möchten.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Panel.PanelRootContainer_1.CenterPanelContainer.ButtonsGallery_1.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Panel.PanelRootContainer_1.CenterPanelContainer.ButtonsGallery_1.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Panel.PanelRootContainer_1.CenterPanelContainer.ButtonsGallery_1.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Panel",
+                "type": "Panel.PanelRootContainer_1.CenterPanelContainer.ButtonsGallery_1",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "Panel.PanelRootContainer_1.CenterPanelContainer.ButtonsGallery_1.Button1.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "Panel.PanelRootContainer_1.CenterPanelContainer.ButtonsGallery_1.Button1.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Panel.PanelRootContainer_1.CenterPanelContainer.ButtonsGallery_1.Button1.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Panel",
+                "type": "Panel.PanelRootContainer_1.CenterPanelContainer.ButtonsGallery_1.Button1",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-make-focusborder-visible",
+          "ruleIndex": 41,
+          "message": {
+            "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "ExpandMenu.imgExpandButton.FocusedBorderThickness"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "ExpandMenu.imgExpandButton.FocusedBorderThickness"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ExpandMenu.imgExpandButton.FocusedBorderThickness"
+                }
+              ],
+              "properties": {
+                "module": "ExpandMenu",
+                "type": "ExpandMenu.imgExpandButton",
+                "member": "FocusedBorderThickness"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-make-focusborder-visible",
+          "ruleIndex": 41,
+          "message": {
+            "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "ExpandMenu.glExpandMenu.FocusedBorderThickness"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "ExpandMenu.glExpandMenu.FocusedBorderThickness"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ExpandMenu.glExpandMenu.FocusedBorderThickness"
+                }
+              ],
+              "properties": {
+                "module": "ExpandMenu",
+                "type": "ExpandMenu.glExpandMenu",
+                "member": "FocusedBorderThickness"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-order",
+          "ruleIndex": 62,
+          "message": {
+            "text": "Stellen Sie sicher, dass die Bildschirmelemente in der Reihenfolge vorliegen, in der Sie sie durchlaufen möchten.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "ExpandMenu.glExpandMenu.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "ExpandMenu.glExpandMenu.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ExpandMenu.glExpandMenu.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "ExpandMenu",
+                "type": "ExpandMenu.glExpandMenu",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Galleries Screen'.icoGalleriesHome.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Galleries Screen'.icoGalleriesHome.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Galleries Screen'.icoGalleriesHome.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Galleries Screen",
+                "type": "'Galleries Screen'.icoGalleriesHome",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Galleries Screen'.icoGalleriesHome.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Galleries Screen'.icoGalleriesHome.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Galleries Screen'.icoGalleriesHome.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Galleries Screen",
+                "type": "'Galleries Screen'.icoGalleriesHome",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Galleries Screen'.galCoralGallery.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Galleries Screen'.galCoralGallery.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Galleries Screen'.galCoralGallery.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Galleries Screen",
+                "type": "'Galleries Screen'.galCoralGallery",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Galleries Screen'.galCoralGallery.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Galleries Screen'.galCoralGallery.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Galleries Screen'.galCoralGallery.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Galleries Screen",
+                "type": "'Galleries Screen'.galCoralGallery",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Galleries Screen'.galCoralGallery.imgCoral.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Galleries Screen'.galCoralGallery.imgCoral.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Galleries Screen'.galCoralGallery.imgCoral.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Galleries Screen",
+                "type": "'Galleries Screen'.galCoralGallery.imgCoral",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Galleries Screen'.galCoralGallery.imgCoral.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Galleries Screen'.galCoralGallery.imgCoral.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Galleries Screen'.galCoralGallery.imgCoral.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Galleries Screen",
+                "type": "'Galleries Screen'.galCoralGallery.imgCoral",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Galleries Screen'.galReefOccupants.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Galleries Screen'.galReefOccupants.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Galleries Screen'.galReefOccupants.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Galleries Screen",
+                "type": "'Galleries Screen'.galReefOccupants",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Galleries Screen'.galReefOccupants.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Galleries Screen'.galReefOccupants.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Galleries Screen'.galReefOccupants.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Galleries Screen",
+                "type": "'Galleries Screen'.galReefOccupants",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Galleries Screen'.galReefOccupants.imgReefOccupants.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Galleries Screen'.galReefOccupants.imgReefOccupants.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Galleries Screen'.galReefOccupants.imgReefOccupants.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Galleries Screen",
+                "type": "'Galleries Screen'.galReefOccupants.imgReefOccupants",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Galleries Screen'.galReefOccupants.imgReefOccupants.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Galleries Screen'.galReefOccupants.imgReefOccupants.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Galleries Screen'.galReefOccupants.imgReefOccupants.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Galleries Screen",
+                "type": "'Galleries Screen'.galReefOccupants.imgReefOccupants",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Coral Information Screen'.icoCoralBackArrow.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Coral Information Screen'.icoCoralBackArrow.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Coral Information Screen'.icoCoralBackArrow.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Coral Information Screen",
+                "type": "'Coral Information Screen'.icoCoralBackArrow",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Coral Information Screen'.icoCoralBackArrow.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Coral Information Screen'.icoCoralBackArrow.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Coral Information Screen'.icoCoralBackArrow.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Coral Information Screen",
+                "type": "'Coral Information Screen'.icoCoralBackArrow",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Reef Information Screen'.icoReefBackArrow.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Reef Information Screen'.icoReefBackArrow.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Reef Information Screen'.icoReefBackArrow.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Reef Information Screen",
+                "type": "'Reef Information Screen'.icoReefBackArrow",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Reef Information Screen'.icoReefBackArrow.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Reef Information Screen'.icoReefBackArrow.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Reef Information Screen'.icoReefBackArrow.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Reef Information Screen",
+                "type": "'Reef Information Screen'.icoReefBackArrow",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.icoSearchHome.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Smithsonian 3D Search Screen'.icoSearchHome.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.icoSearchHome.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Smithsonian 3D Search Screen",
+                "type": "'Smithsonian 3D Search Screen'.icoSearchHome",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.icoSearchHome.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Smithsonian 3D Search Screen'.icoSearchHome.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.icoSearchHome.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Smithsonian 3D Search Screen",
+                "type": "'Smithsonian 3D Search Screen'.icoSearchHome",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.galSearch.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Smithsonian 3D Search Screen'.galSearch.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.galSearch.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Smithsonian 3D Search Screen",
+                "type": "'Smithsonian 3D Search Screen'.galSearch",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.galSearch.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Smithsonian 3D Search Screen'.galSearch.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.galSearch.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Smithsonian 3D Search Screen",
+                "type": "'Smithsonian 3D Search Screen'.galSearch",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Smithsonian 3D Search Screen",
+                "type": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Smithsonian 3D Search Screen",
+                "type": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-make-focusborder-visible",
+          "ruleIndex": 41,
+          "message": {
+            "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView.FocusedBorderThickness"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView.FocusedBorderThickness"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView.FocusedBorderThickness"
+                }
+              ],
+              "properties": {
+                "module": "Smithsonian 3D Search Screen",
+                "type": "'Smithsonian 3D Search Screen'.galSearch.icoSearchView",
+                "member": "FocusedBorderThickness"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Smithsonian 3D Viewer Screen'.ico3DViewerBackArrow.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Smithsonian 3D Viewer Screen'.ico3DViewerBackArrow.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Smithsonian 3D Viewer Screen'.ico3DViewerBackArrow.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Smithsonian 3D Viewer Screen",
+                "type": "'Smithsonian 3D Viewer Screen'.ico3DViewerBackArrow",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Smithsonian 3D Viewer Screen'.ico3DViewerBackArrow.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Smithsonian 3D Viewer Screen'.ico3DViewerBackArrow.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Smithsonian 3D Viewer Screen'.ico3DViewerBackArrow.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Smithsonian 3D Viewer Screen",
+                "type": "'Smithsonian 3D Viewer Screen'.ico3DViewerBackArrow",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Tutorial Screen'.TutorialNavigator1.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Tutorial Screen'.TutorialNavigator1.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tutorial Screen'.TutorialNavigator1.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Tutorial Screen",
+                "type": "'Tutorial Screen'.TutorialNavigator1",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Tutorial Screen'.TutorialNavigator1.Circle1.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Tutorial Screen'.TutorialNavigator1.Circle1.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tutorial Screen'.TutorialNavigator1.Circle1.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Tutorial Screen",
+                "type": "'Tutorial Screen'.TutorialNavigator1.Circle1",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Tutorial Screen'.iconPrev1.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Tutorial Screen'.iconPrev1.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tutorial Screen'.iconPrev1.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Tutorial Screen",
+                "type": "'Tutorial Screen'.iconPrev1",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Tutorial Screen'.iconNext1.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Tutorial Screen'.iconNext1.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tutorial Screen'.iconNext1.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Tutorial Screen",
+                "type": "'Tutorial Screen'.iconNext1",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-accessible-label",
+          "ruleIndex": 34,
+          "message": {
+            "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Tutorial Screen'.Icon1.AccessibleLabel"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Tutorial Screen'.Icon1.AccessibleLabel"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tutorial Screen'.Icon1.AccessibleLabel"
+                }
+              ],
+              "properties": {
+                "module": "Tutorial Screen",
+                "type": "'Tutorial Screen'.Icon1",
+                "member": "AccessibleLabel"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-include-tab-index",
+          "ruleIndex": 26,
+          "message": {
+            "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen.",
+            "id": "message1"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "address": {
+                  "relativeAddress": 0,
+                  "fullyQualifiedName": "'Tutorial Screen'.Icon1.TabIndex"
+                },
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                },
+                "region": {
+                  "snippet": {
+                    "text": "'Tutorial Screen'.Icon1.TabIndex"
+                  }
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Tutorial Screen'.Icon1.TabIndex"
+                }
+              ],
+              "properties": {
+                "module": "Tutorial Screen",
+                "type": "'Tutorial Screen'.Icon1",
+                "member": "TabIndex"
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Medium",
+            "severity": "Medium",
+            "caLevel": "Medium"
+          }
+        },
+        {
+          "ruleId": "app-formula-issues-high",
+          "ruleIndex": 61,
+          "level": "error",
+          "message": {
+            "text": "Für die App wurden 1 Formelprobleme mit hohem Schweregrad von der App-Überprüfung gemeldet. Die Probleme können im Designmodus der App Mixed Reality App überprüft werden.",
+            "id": "message1",
+            "arguments": [
+              "1",
+              "Mixed Reality App"
+            ]
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/CanvasApps/ppa_mixedrealityapp_8c5e9_DocumentUri.msapp",
+                  "index": 1
+                }
+              }
+            }
+          ],
+          "properties": {
+            "originalSeverity": "Critical",
+            "severity": "Critical",
+            "caLevel": "Critical"
+          }
+        }
+      ],
+      "automationDetails": {
+        "correlationGuid": "4e6dbf5c-4040-42ca-8812-7068672921c1"
+      },
+      "columnKind": "utf16CodeUnits",
+      "translations": [
+        {
+          "name": "de-CH",
+          "rules": [
+            {
+              "id": "app-make-focusborder-visible",
+              "messageStrings": {
+                "message1": {
+                  "text": "Ändern Sie die Eigenschaft \"FocusedBorderThickness\" in einen Wert größer 0."
+                }
+              }
+            },
+            {
+              "id": "app-include-tab-order",
+              "messageStrings": {
+                "message1": {
+                  "text": "Stellen Sie sicher, dass die Bildschirmelemente in der Reihenfolge vorliegen, in der Sie sie durchlaufen möchten."
+                }
+              }
+            },
+            {
+              "id": "app-include-accessible-label",
+              "messageStrings": {
+                "message1": {
+                  "text": "Bearbeiten Sie die Eigenschaft für die barrierefreie Bezeichnung, um das Element zu beschreiben."
+                }
+              }
+            },
+            {
+              "id": "app-include-tab-index",
+              "messageStrings": {
+                "message1": {
+                  "text": "Legen Sie den TabIndex auf 0 oder höher fest, um sicherzustellen, dass interaktive Elemente einen Tabstopp aufweisen."
+                }
+              }
+            },
+            {
+              "id": "app-formula-issues-high",
+              "messageStrings": {
+                "message1": {
+                  "text": "Für die App wurden {0} Formelprobleme mit hohem Schweregrad von der App-Überprüfung gemeldet. Die Probleme können im Designmodus der App {1} überprüft werden."
+                }
+              }
+            }
+          ],
+          "language": "de-CH"
+        },
+        {
+          "name": "en-US",
+          "rules": [
+            {
+              "id": "app-make-focusborder-visible",
+              "messageStrings": {
+                "message1": {
+                  "text": "Change the FocusedBorderThickness property to be more than 0."
+                }
+              }
+            },
+            {
+              "id": "app-include-tab-order",
+              "messageStrings": {
+                "message1": {
+                  "text": "Make sure that your screen elements match the order in which you'd want to tab through them."
+                }
+              }
+            },
+            {
+              "id": "app-include-accessible-label",
+              "messageStrings": {
+                "message1": {
+                  "text": "Edit the accessible label property to describe the item."
+                }
+              }
+            },
+            {
+              "id": "app-include-tab-index",
+              "messageStrings": {
+                "message1": {
+                  "text": "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                }
+              }
+            },
+            {
+              "id": "app-formula-issues-high",
+              "messageStrings": {
+                "message1": {
+                  "text": "There are {0} formula issues for the app reported by app checker that are of high severity. The issues can be reviewed in the design mode of the app, {1}."
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
